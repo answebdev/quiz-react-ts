@@ -1,6 +1,8 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import BGImage from './images/balloons.jpg';
 
+// STOPPED at 1:10:02
+
 export const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;

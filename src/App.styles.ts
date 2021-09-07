@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;
   }
+
   body {
     background-image: url(${BGImage});
     background-size: cover;
@@ -13,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
   }
+
   * {
     font-family: 'Catamaran', sans-serif;
     box-sizing: border-box;
@@ -26,11 +28,13 @@ export const Wrapper = styled.div`
   > p {
     color: #fff;
   }
+
   .score {
     color: #fff;
     font-size: 2rem;
     margin: 0;
   }
+
   h1 {
     font-family: Fascinate Inline;
     background-image: linear-gradient(180deg, #fff, #87f1ff);
@@ -46,6 +50,7 @@ export const Wrapper = styled.div`
     text-align: center;
     margin: 20px;
   }
+
   .start, .next {
     cursor: pointer;
     background: linear-gradient(180deg, #ffffff, #ffcc91);
@@ -56,6 +61,7 @@ export const Wrapper = styled.div`
     margin: 20px 0;
     padding: 0 40px;
   }
+  
   .start {
     max-width: 200px;
   }
